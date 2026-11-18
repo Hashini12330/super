@@ -7,6 +7,8 @@ public class Main{
 
 }
 
+// 4. First use: super() → Parent Constructor
+
 class Animal{
     int age;
     

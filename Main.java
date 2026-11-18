@@ -8,8 +8,11 @@ public class Main{
         // 02
         Dog2 d2 = new Dog2();
         d2.sound();
+        System.out.println("---------------------------------------");
 
-
+        // 03
+        Dog3 d3 = new Dog3();
+        d3.show();
 
 
     }
@@ -63,3 +66,30 @@ class Dog2 extends Animal2{
 
     }
 }
+
+
+// 03
+// 11. Third use: super.variable
+
+class Animal3{
+    String name = "Animal";
+
+}
+
+
+class Dog3 extends Animal3{
+    String name = "Dog";
+
+    void show(){
+        System.out.println(name);
+        System.out.println(super.name);     // Use the parent's name.
+    }
+
+}
+
+
+
+
+
+
+
